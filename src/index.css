@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-deep: #0a0a0f;
+  --color-neon-blue: #00f2ff;
+  --color-neon-pink: #ff007a;
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  
+  --font-main: "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Courier New", Courier, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-deep font-main text-white overflow-hidden;
+  }
+}

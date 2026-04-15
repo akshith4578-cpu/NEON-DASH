@@ -1,0 +1,6 @@
+{
+  "name": "Neon Dash",
+  "description": "An interactive 2D endless runner game with neon aesthetics, difficulty scaling, and a high-score system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["game-development"]
+}
